@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Developer - Portfolio</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/32/3135/3135715.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://cdn-icons-png.flaticon.com/180/3135/3135715.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://cdn-icons-png.flaticon.com/32/3135/3135715.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://cdn-icons-png.flaticon.com/16/3135/3135715.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#home">Portfolio</a>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a
+            href="Aayush_Chandak_CV_2025.pdf"
+            download="Aayush_Chandak_Resume.pdf"
+            class="nav-link resume-download"
+            id="resume-download"
+          >
+            <i class="fas fa-download"></i> Resume
+          </a>
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">Hi, I'm a Frontend Developer</h1>
+          <p class="hero-subtitle">
+            Creating Beautiful & Responsive Web Experiences
+          </p>
+          <p class="hero-description">
+            I specialize in building modern, user-friendly websites and web
+            applications using HTML, CSS, JavaScript, and React. With 1+ years
+            of experience, I bring ideas to life through clean code and
+            intuitive design.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="https://drive.google.com/file/d/1JK4y4WeP8DHcx1AFqly64WeYpfuolxSh/view" class="btn btn-secondary" target="_blank"
+            >
+              <i class="fas fa-download"></i> View My Resume
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-avatar">
+            <i class="fas fa-code"></i>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate Frontend Developer with 1+ years of experience in
+              creating engaging and responsive web applications. I love turning
+              complex problems into simple, beautiful, and intuitive solutions
+              using modern web technologies.
+            </p>
+            <p>
+              My journey in web development started with HTML and CSS, evolved
+              through JavaScript mastery, and now includes React for building
+              dynamic user interfaces. I enjoy working with the latest tools and
+              continuously learning new skills to stay current with industry
+              trends.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3>8+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat">
+                <h3>1+</h3>
+                <p>Years Experience</p>
+              </div>
+              <div class="stat">
+                <h3>100%</h3>
+                <p>Client Satisfaction</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend Technologies</h3>
+            <div class="skill-items">
+              <span class="skill-item">HTML5</span>
+              <span class="skill-item">CSS3</span>
+              <span class="skill-item">JavaScript</span>
+              <span class="skill-item">React (Basic)</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Development</h3>
+            <div class="skill-items">
+              <span class="skill-item">Git & GitHub</span>
+              <span class="skill-item">VS Code</span>
+              <span class="skill-item">Chrome DevTools</span>
+              <span class="skill-item">Figma</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Specializations</h3>
+            <div class="skill-items">
+              <span class="skill-item">UI/UX Design</span>
+              <span class="skill-item">Browser Extensions</span>
+              <span class="skill-item">Landing Pages</span>
+              <span class="skill-item">Game Development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="Sticky-Note-Extension.png"
+                alt="Sticky Note Extension"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Aayush0330/sticky-note-extention-for-crome"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Sticky Note Extension</h3>
+              <p>
+                A browser extension that allows users to create, edit, and
+                manage sticky notes directly on web pages. Features include
+                drag-and-drop functionality, color customization, and local
+                storage.
+              </p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Chrome APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="Responsive-Tester-Tool.png" alt="Responsive Tester" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Aayush0330/Responsive-Tester-For-All-Devices"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Responsive Tester Tool</h3>
+              <p>
+                A comprehensive tool for testing website responsiveness across
+                multiple device sizes. Features preset device dimensions, custom
+                viewport testing, and screenshot capabilities.
+              </p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>CSS3</span>
+                <span>HTML5</span>
+                <span>Responsive Design</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="Funny-Detective-Game.png" alt="Detective Game" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://aayush0330.github.io/Funny-detective-game/"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Aayush0330/Funny-detective-game"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Funny Detective Game</h3>
+              <p>
+                An interactive web-based detective game with engaging
+                storylines, clue-finding mechanics, and puzzle-solving elements.
+                Features animated characters and immersive gameplay.
+              </p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>CSS Animations</span>
+                <span>HTML5</span>
+                <span>Game Logic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="NEXCent-UI-Clone.png" alt="NEXCent UI Clone" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://aayush0330.github.io/CLONE-OF-NEXCENT/"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Aayush0330/CLONE-OF-NEXCENT"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>NEXCENT UI Clone</h3>
+              <p>
+                A pixel-perfect clone of the NEXCent website interface,
+                demonstrating advanced CSS skills and attention to detail in
+                recreating complex layouts and animations.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Responsive Design</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="CouresZ-UI-Clone.png" alt="CouresZ UI Clone" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://aayush0330.github.io/CouresZ/"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Aayush0330/CouresZ"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>CouresZ UI Clone</h3>
+              <p>
+                A complete recreation of the CouresZ educational platform
+                interface, featuring modern design patterns, interactive
+                elements, and responsive layouts for optimal user experience.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>UI/UX Design</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="Fitness-Landing-Page.png" alt="Fitness Landing Page" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://aayush0330.github.io/Fitness-landing-page/"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Aayush0330/Fitness-landing-page"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Fitness Landing Page</h3>
+              <p>
+                A modern, conversion-focused fitness landing page with smooth
+                animations, call-to-action sections, and mobile-first responsive
+                design to engage potential clients.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Landing Page Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's work together</h3>
+            <p>
+              I'm always interested in new opportunities and exciting projects.
+              Whether you need a website, web application, or just want to
+              discuss frontend development, feel free to reach out!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>aayushchandak3004@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+91 8003193461</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Rajasthan, India</span>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Aayush0330" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/aayush-chandak-614167239/" class="social-link"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="resume-section">
+              <h4>Download My Resume</h4>
+              <p>
+                Get a detailed overview of my skills, experience, and projects.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary resume-btn"
+                id="contact-resume-download"
+              >
+                <i class="fas fa-file-pdf"></i> Download PDF Resume
+              </a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Frontend Developer Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div id="resume-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Download Resume</h2>
+        <p>Choose your preferred format:</p>
+        <div class="download-options">
+          <a href="#" class="download-btn" id="download-pdf">
+            <i class="fas fa-file-pdf"></i>
+            <span>PDF Format</span>
+            <small>Best for printing and sharing</small>
+          </a>
+          <a href="#" class="download-btn" id="download-doc">
+            <i class="fas fa-file-word"></i>
+            <span>Word Document</span>
+            <small>Editable format</small>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
